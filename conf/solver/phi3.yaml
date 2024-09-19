@@ -1,0 +1,11 @@
+_target_: solvers.phi3_solver.Phi3Solver
+# name: Phi-3-mini-128k-instruct
+# name: Phi-3-small-128k-instruct
+# name: Phi-3-medium-128k-instruct
+name: Phi-3-vision-128k-instruct
+huggingface_model_id: microsoft/Phi-3-vision-128k-instruct
+image_root: "${basic.image_root}"
+debug_mode: "${basic.debug_mode}"
+
+basic:
+  image_counts: ["oracle", 2, 3]

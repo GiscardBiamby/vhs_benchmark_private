@@ -1,0 +1,22 @@
+tqdm==4.66.2
+nltk==3.8.1
+hydra-core==1.3.2
+transformers==4.41.0
+tiktoken==0.7.0
+transformers_stream_generator==0.0.5
+
+# specifics
+openai==1.35.5
+google-generativeai
+anthropic==0.30.0
+
+# for phi3
+accelerate
+pillow
+torch
+torchvision
+six
+numpy
+black
+isort
+# Run this to install flash attention: MAX_JOBS=16 pip install flash-attn --no-build-isolation
